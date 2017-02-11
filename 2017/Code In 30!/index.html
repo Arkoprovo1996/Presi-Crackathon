@@ -1,0 +1,134 @@
+<!DOCTYPE=html>
+<html>
+	<head>
+		<title>
+			Code In 30!
+		</title>
+		<!-- CSS -->
+		<style type="text/css">
+			html, body
+			{
+				background-color: #E5E4E2;
+				color: #151B54;
+			}
+			p
+			{
+				margin-left:  8%;
+				margin-right: 8%;
+				margin-top: 2%;
+				margin-bottom: 2%;
+			}
+			p.Question
+			{
+				font-size: 16px;
+				color: #008080;
+				margin-left:  10%;
+				margin-right: 10%;
+			}
+			blockquote
+			{
+				margin-left: 15%;
+				margin-right: 15%;
+				font-size: 16px;
+			}
+			ul
+			{
+				margin-left: 15%;
+				margin-right: 15%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<br />
+		<h1>
+			<center>Code In 30!</center>
+		</h1>
+		<br />
+		<br />
+		<p align="justify" style="font-size: 22px" ><b>Question 1:</b> <i>A Series of Unfortunate Numbers ...</i> </p>
+		<p align="justify" class="Question" >Robert Langdon has again lost his memories. This time, instead of a fake hospital, he's been trapped inside a hidden chamber in Smolenskoye Cemetery. The key to his freedom, lies in <i>three</i> of numerous numbered rocks, which need pushed in the correct order. Unfortunately, he's forgotten the numbers. Fortunately, he has the following series written on the floor:</p>
+		<blockquote>
+		<i>  2,   3,   5,   6,   9,  11,  12,  16,  19,  21,  22,  27,  31,  34,  36,  37,  43,  48,  52,  55,  57,  58,  65,  71,  76,  80,  83,  85,  86,  94, 101, 107, 112, 116, 119, 121, 122, 131, 139, 146, 152, 157, 161, 164, 166, 167, 177, 186, 194
+		</i>
+		</blockquote>
+		<p align="justify" class="Question" >
+			Unfortunately again, he's wrongly dialed your number. Help him out of the situation, by <i>deciphering</i> the given <i>Integer series</i> and <em>find</em> the <b><i>next Three Terms</i></b> of the series.
+		</p>
+		<br />
+		<p align="justify" style="font-size: 22px" ><b>Question 2:</b> <i>Find the Function</i></p>
+		<p align="justify" class="Question" >
+			Your University required a Simple Integer Hashing Program to create Hashes of the Students' Roll Numbers, to be used as WiFi Passwords. Before anyone could, Proprietary Inc. had provided them with it's own program. Luck has touched you today, as you found the <a href="Problem 2/Student Data"><b>Old Student Data</b></a> file sent to your mail, by mistake.
+		</p>
+		<p align="justify" class="Question" >
+			It is a widely known fact that Proprietary Inc. uses <i>three functions</i> to HASH Data:
+		</p>
+		<ul style="list-style-type:disc ">
+			<li> <b>BITWISE Complementation ( ~ ):</b> The bits of the function <i>y = f(x)</i> are <b>complemented</b>.
+			<ul style="list-style-type:none; margin-left: 5%; margin-right: 5%">
+				<li> For instance, a <i>signed 8-bit 1<sub>10</sub></i>, i.e. (&nbsp<i>0000&nbsp0001</i>&nbsp)<sub>2</sub> will, on complementation yield, -1<sub>10</sub>, i.e. (&nbsp<i>1111 1110</i>&nbsp)<sub>2</sub>
+			</ul>
+			<li> <b>INCREMENTATION By 16 ( <i>+ 16</i> ):</b> The number is <i>incremented</i> by 16<sub>10</sub>
+			<li> <b>SQUARING ( x<sup>2</sup> ):</b> The number is <i>squared</i>.
+		</ul>
+		<p align="justify" class="Question" >
+			However, it is unknown to you in which order these functions are called upon the <a href="Problem 2/Student Data">given data</a>, which is in the format <i>[&nbspROLL&nbspNO.&nbsp&nbsp&nbsp&nbspHASH&nbsp],&nbsp(&nbspROLL&nbspNO.&nbspTAB&nbspHASH&nbsp)</i>.
+		</p>
+		<p align="justify" class="Question" >
+			Find the <i>Order</i> in which these functions were called.
+		</p>
+		<p align="justify" class="Question" >
+			<em>Example:</em> If the functions are <i>f(x), g(x) &amp; h(x)</i>, report if it is <i>f(g(h(x)))</i> or <i>g(f(h(x)))</i> or so on ...
+		</p>
+		<br />
+		<p align="justify" style="font-size: 22px" ><b>Question 3:</b> <i>Target Therapy</i></p>
+		<p align="justify" class="Question" >
+			The veins & arteries of the body form a giant network, which can be used as a roadway to deliver drugs to treat diseases in specific regions of the body. The intersections of the veins, including organs can be thought of as <b>nodes</b> in a <b>graph</b>, <i>the non-linear data-structure.</i> The best path for the drug delivery, is obviously the <i>shortest<i> one between the <i>injection point</i> &amp; the <i>target point</i>, be it a tear or a tumor.
+		</p>
+		<p align="justify" class="Question" >
+			You're given a set of <b>10</b> nodes, of which the <b>first node</b> is the <i>injection point</i>, the <b>second</b>, the <b>target point</b> &amp; a set of connected nodes, with their <i>inter-nodal distances</i>, a.k.a <i>path lengths</i>, specified.
+		</p>
+		<p align="justify" class="Question" >
+			Find the shortest path between the <i>Injection Point</i> &amp; the <i>Target Point</i>, in <i>least time</i>.
+		</p>
+		<p align="justify" class="Question" >
+			Example Input & Output:
+		</p>
+		<blockquote>
+		<samp>
+		<b>Input:-</b>
+		<pre>
+		A F
+		A B 2
+		A C 1
+		A H 4
+		B H 1
+		C D 1
+		D F 3
+		D G 5
+		D H 3
+		E F 8
+		F H 1
+		F I 3
+		F J 2
+		G J 1
+		I J 3
+		</pre>
+		<b>Output:-</b>
+		<pre>
+		ABHF
+		</pre>
+		</samp>
+		</blockquote>
+		
+		<p align="justify" class="Question" >
+			<i>In case of more than one shortest path, give any or both at your own discretion.</i>
+		</p>
+		<br />
+		<br />
+		<p align="center">
+		<b><i>*****</b></i>
+		</p>
+		<br />
+	</body>
+</html>
